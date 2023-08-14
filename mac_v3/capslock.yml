@@ -1,5 +1,5 @@
 ---
-title: Capslock Enhancement
+title: vCapslock Enhancement
 url: https://vonng.com/capslock.json
 version: 3.0.3
 maintainers: [ Vonng ]
@@ -1249,7 +1249,7 @@ rules:
   ################################################################
   #                      Hyper Application                       #
   ################################################################
-  - description: Hyper Application
+  - description: vHyper Application
     manipulators:
 
 
@@ -1266,11 +1266,15 @@ rules:
         from: { key_code: e, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a mail } ]
 
-      - description: 'e = safari'
+      - description: 'e = Chrome'
         type: basic
         from: { key_code: e, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a Safari } ]
+        to: [ { shell_command: open -a 'Google Chrome' } ]
 
+      #- description: 'e = safari'
+      #  type: basic
+      #  from: { key_code: e, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
+      #  to: [ { shell_command: open -a Safari } ]
 
       #==========================================================#
       # ( r ) --> iterm / preview / terminal                     #
@@ -1327,7 +1331,7 @@ rules:
         to: [ { shell_command: open -a Siri } ]
 
       #==========================================================#
-      # ( f ) --> alfred 4 / Dash / Dictionary                   #
+      # ( f ) --> alfred 5 / Dash / Dictionary                   #
       #==========================================================#
       - description: 'command + f = Dash'
         type: basic
@@ -1339,18 +1343,24 @@ rules:
         from: { key_code: f, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a Dictionary } ]
 
-      - description: 'f = Alfred 4'
+      - description: 'f = Alfred 5'
         type: basic
         from: { key_code: f, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a 'Alfred 4' } ]
+        to: [ { shell_command: open -a 'Alfred 5' } ]
 
       #==========================================================#
-      # ( g ) --> idea / chrome / calender                       #
+      # ( g ) --> idea / safari//chrome / calender                       #
       #==========================================================#
-      - description: 'command + g = Chrome'
+
+      - description: 'command + g = safari'
         type: basic
         from: { key_code: g, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a 'Google Chrome' } ]
+        to: [ { shell_command: open -a 'Safari' } ]
+
+      #- description: 'command + g = Chrome'
+      #  type: basic
+      #  from: { key_code: g, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
+      #  to: [ { shell_command: open -a 'Google Chrome' } ]
 
       - description: 'option + g = Calender'
         type: basic

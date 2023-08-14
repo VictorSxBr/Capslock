@@ -157,12 +157,12 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 
 | Key\Mod |         <kbd>✱</kbd>          |     <kbd>⌘</kbd>     |      <kbd>⌥</kbd>      |
 | :-----: | :----------------: | :-------: | :---------: |
-|    <kbd>E</kbd>    |       Safari       |  Finder   |    Mail     |
+|    <kbd>E</kbd>    |       Chrome       |  Finder   |    Mail     |
 |    <kbd>R</kbd>    |       iTerm2       |  Preview  |  Terminal   |
 |    <kbd>T</kbd>    | Visual Studio Code |  Typora   |    Note     |
 |    <kbd>Y</kbd>    |        Siri        | Karabiner | Amphetamine |
-|    <kbd>F</kbd>    |      Alfred 4      |   Dash    | Dictionary  |
-|    <kbd>G</kbd>    |   Intellij IDEA    |  Chrome   |  Calender   |
+|    <kbd>F</kbd>    |      Alfred 5      |   Dash    | Dictionary  |
+|    <kbd>G</kbd>    |   Intellij IDEA    |  Safari   |  Calender   |
 
 
 
