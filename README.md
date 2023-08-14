@@ -205,7 +205,7 @@ Capslock works on **ANSI** keyboards and similar layouts. It literally remaps ev
 |    <kbd>R</kbd>    |       iTerm2       |  Preview  |  Terminal   |
 |    <kbd>T</kbd>    | Visual Studio Code |  Typora   |    Note     |
 |    <kbd>Y</kbd>    |        Siri        | Karabiner | Amphetamine |
-|    <kbd>F</kbd>    |      Alfred 4      |   Dash    | Dictionary  |
+|    <kbd>F</kbd>    |      Alfred 5      |   Dash    | Dictionary  |
 |    <kbd>G</kbd>    |   Intellij IDEA    |  Safari   |  Calender   |
 
 
